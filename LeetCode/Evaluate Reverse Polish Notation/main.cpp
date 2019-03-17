@@ -17,10 +17,9 @@ public:
                     res = val2 - val1;
                 } else if (str == "*") {
                     res = val1 * val2;
-                } else if (str == "/") {
+                } else  {
                     res = val2 / val1;
                 }
-                
                 s.push(res);
             }
         }
